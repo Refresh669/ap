@@ -1,3 +1,15 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "style.css";
+@import "media.css";
+@keyframes slide {
+  0% {
+    top: -15px;
+  }
+  100% {
+    top: 0px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -55,6 +67,183 @@ header {
   line-height: 20px;
   letter-spacing: 0.4px;
   color: #000000;
+}
+
+.Aperture-Studios {
+  background-image: url("../img/IMAGE.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+}
+.Aperture-Studios .first_Studios {
+  padding-bottom: 71px;
+  max-width: 600px;
+}
+.Aperture-Studios .first_Studios a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  text-decoration: none;
+}
+.Aperture-Studios .first_Studios h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Aperture-Studios .first_Studios p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #C0C0C0;
+  padding-top: 18px;
+}
+.Aperture-Studios ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 40px;
+  bottom: 46px;
+}
+.Aperture-Studios ul li {
+  padding-left: 16px;
+}
+.Aperture-Studios ul li:nth-child(1):before {
+  content: url("../img/Combined-Shape (1).svg");
+  display: inline-block;
+  padding-right: 6px;
+  position: relative;
+  top: 5px;
+}
+.Aperture-Studios ul li:nth-child(2):before {
+  content: url("../img/Combined-Shape (2).svg");
+  display: inline-block;
+  padding-right: 6px;
+}
+.Aperture-Studios ul li:nth-child(3):before {
+  content: url("../img/Combined-Shape (3).svg");
+  display: inline-block;
+  padding-right: 6px;
+}
+.Aperture-Studios ul li:nth-child(4):before {
+  content: url("../img/Fill-1.svg");
+  display: inline-block;
+  padding-right: 6px;
+}
+.Aperture-Studios ul li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.wwd {
+  padding: 120px 0 100px 0;
+  background: #000000;
+}
+.wwd h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.wwd .wwd-second {
+  padding: 15px 0 42px 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+}
+.wwd article {
+  max-width: 576px;
+  position: relative;
+  margin: 0 16px 16px 0;
+}
+.wwd article:nth-child(3) {
+  flex-wrap: wrap;
+}
+.wwd .describe {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-content: end;
+  flex-wrap: wrap;
+}
+.wwd .describe p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.wwd .describe h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 17px;
+}
+.wwd .describe a {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  padding-right: 10px;
+  color: #000000;
+  background: #FFFFFF;
+  border-radius: 14px;
+  text-decoration: none;
+}
+.wwd .describe a:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 5px 6px 5px 4px;
+}
+.wwd .img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style_preproc.css.map */
