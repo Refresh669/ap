@@ -13,8 +13,9 @@
 
 
 $main_font:'Poppins', sans-serif;
-$white: #FFFFFF;
+$white:#FFFFFF;
 $main_color:#181818;
+$first_colir:#C0C0C0;
 
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
@@ -112,7 +113,7 @@ header{
       text-align: center;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #C0C0C0;
+      color: $first_colir;
       text-decoration: none;
     }
     h2{
@@ -122,7 +123,7 @@ header{
       font-size: 54px;
       line-height: 59px;
       text-align: center;
-      color: #FFFFFF;
+      color: $white;
     }
     p{
       font-family: $main_font;
@@ -131,7 +132,7 @@ header{
       font-size: 14px;
       line-height: 20px;
       text-align: center;
-      color: #C0C0C0;
+      color: $first_colir;
       padding-top: 18px;
     }
 }
@@ -178,7 +179,7 @@ header{
       font-weight: 400;
       font-size: 12px;
       line-height: 12px;
-      color: #FFFFFF;
+      color: $white;
       text-decoration: none;
     }
     }
@@ -199,7 +200,7 @@ header{
     font-size: 40px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color: $white;
   }
   .wwd-second{
     padding: 15px 0 42px 0;
@@ -209,7 +210,7 @@ header{
     font-size: 23px;
     line-height: 30px;
     text-align: center;
-    color: #C0C0C0;
+    color: $first_colir;
   }
   article{
     max-width: 576px;
@@ -234,7 +235,7 @@ header{
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
-      color: #C0C0C0;
+      color: $first_colir;
       margin-bottom: 10px;
       width: 100%;
     }
@@ -246,7 +247,7 @@ header{
       line-height: 20px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: $white;
       display: block;
       margin-bottom: 17px;
     }
@@ -261,7 +262,7 @@ header{
       letter-spacing: 0.4px;
       padding-right: 10px;
       color: #000000;
-      background: #FFFFFF;
+      background: $white;
       border-radius: 14px;
       text-decoration: none;
     ;
@@ -364,7 +365,7 @@ header{
       line-height: 20px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: $white;
     }
     p{
       font-family: $main_font;
@@ -372,7 +373,7 @@ header{
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
-      color: #C0C0C0;
+      color: $first_colir;
     }
   }
   ul{
@@ -421,12 +422,12 @@ header{
         }
       }
       a{
-        font-family: 'Poppins', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
         line-height: 12px;
-        color: #FFFFFF;
+        color: $white;
         text-decoration: none;
       }
     }
@@ -456,7 +457,7 @@ header{
       line-height: 20px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: $white;
     }
     p{
       font-family: $main_font;
@@ -464,7 +465,7 @@ header{
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
-      color: #C0C0C0;
+      color: $first_colir;
     }
   }
   ul{
@@ -519,7 +520,7 @@ header{
       font-weight: 400;
       font-size: 12px;
       line-height: 12px;
-      color: #FFFFFF;
+      color: $white;
       text-decoration: none
     }
   }
@@ -539,7 +540,7 @@ header{
     font-size: 40px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color: $white;
   }
   p{
     font-family: $main_font;
@@ -548,7 +549,7 @@ header{
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    color: #C0C0C0;
+    color: $first_colir;
   }
 }
 .owl-carousel{
@@ -604,7 +605,7 @@ header{
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF
+    color: $white;
   }
     p{
       font-family: $main_font;
@@ -612,7 +613,7 @@ header{
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
-      color: #C0C0C0;
+      color: $first_colir;
     }
   }
   ul{
@@ -667,7 +668,7 @@ header{
       font-weight: 400;
       font-size: 12px;
       line-height: 12px;
-      color: #FFFFFF;
+      color: $white;
       text-decoration: none;
     }
   }
